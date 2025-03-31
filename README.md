@@ -41,7 +41,7 @@ All data is merged using geographic coordinates and INSEE municipal codes.
 - Average real estate transaction price in the municipality **(added)**   
 - Total surface area of the property  
 - Energy performance score of the property  
-- Average surface per bathroom (computed)   
+- Average surface per bathroom **(computed)**   
 - Number of bedrooms  
 - Median income of households in the municipality **(added)**   
 - Total number of rooms in the property  
