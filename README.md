@@ -1,4 +1,4 @@
-# 🏠 Real Estate Price Prediction – Bargain Project (2024)
+# 🏠 Real Estate Price Prediction Project (2024)
 
 This project aims to predict whether a real estate property in France was sold for more than €350,000 using property characteristics, geographic information, and socio-economic municipal data sourced from Open Data.
 
