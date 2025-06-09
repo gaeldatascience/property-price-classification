@@ -1,12 +1,12 @@
-# 🏠 Real Estate Price Prediction Project (2024)
+# Real Estate Price Prediction Project (2024)
 
 This project aims to predict whether a real estate property in France was sold for more than €350,000 using property characteristics, geographic information, and socio-economic municipal data sourced from Open Data.
 
-## 📌 Objective
+## Objective
 
 Build a classification model to determine whether a property surpasses the €350,000 sale price threshold. The project emphasizes feature enrichment using public datasets and advanced preprocessing techniques to boost model performance.
 
-## 📊 Datasets
+## Datasets
 
 - **DVF (Demandes de Valeurs Foncières)** — real estate transaction data (2021–2022)
 - **INSEE** — income and demographic data per municipality
@@ -16,7 +16,7 @@ Build a classification model to determine whether a property surpasses the €35
 
 All data is merged using geographic coordinates and INSEE municipal codes.
 
-## ⚙️ Key Features
+## Key Features
 
 - **Geospatial data integration**: Assigns each property to a municipality using spatial joins and nearest-neighbor correction for coastal/missing properties.
 - **Municipality-level feature engineering**: Income median, population density, price per square meter evolution, etc.
@@ -24,7 +24,7 @@ All data is merged using geographic coordinates and INSEE municipal codes.
 - **Custom ratios**: Surface per room, surface per bathroom, household ratios, etc.
 - **Modeling**: Random Forest, CatBoost, XGBoost, and Stacking Classifiers.
 
-## 🧠 Models & Results
+## Models & Results
 
 | Model              | ROC-AUC Score |
 |-------------------|---------------|
@@ -49,14 +49,14 @@ All data is merged using geographic coordinates and INSEE municipal codes.
 
 These top features highlight the importance of local real estate trends, socio-economic context, and intrinsic property characteristics when predicting whether a property exceeds €350,000 in value.
 
-## 🗺️ Visualizations
+## Visualizations
 
 - Choropleth map of property prices per department
 - Heatmap of high-value properties
 - Filterable map (Folium) of listings by property type
 - Correlation matrix and feature importance bar plots
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Python** (pandas, geopandas, scikit-learn, xgboost, catboost, seaborn, matplotlib, folium)
 - **Jupyter Notebooks** for exploration and modeling
