@@ -34,7 +34,7 @@ All data is merged using geographic coordinates and INSEE municipal codes.
 | XGBoost            | **0.98**      |
 
 
-## 📈 Feature Importance (Top 10)
+## Feature Importance (Top 10)
 
 - Property size compared to the average size in the area **(added)** 
 - Average price per square meter in the municipality **(added)**  
@@ -62,7 +62,7 @@ These top features highlight the importance of local real estate trends, socio-e
 - **Jupyter Notebooks** for exploration and modeling
 - **Open Data sources** from INSEE, Etalab, IGN, etc.
 
-## 🧪 Notebooks
+## Notebooks
 
 - `communes.ipynb`: Data collection and feature engineering using municipal-level data
 - `main.ipynb`: Model training, evaluation, and visualization
